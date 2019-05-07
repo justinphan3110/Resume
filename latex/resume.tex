@@ -1,0 +1,132 @@
+\documentclass[a4paper,11pt]{article}
+
+
+\usepackage{marvosym}
+\usepackage{enumitem}	
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\hypersetup{colorlinks,urlcolor = blue}
+
+% page margins
+\usepackage{geometry}
+\geometry{top=0.5cm,left=1cm,bottom=0.5cm,right=0.5cm}
+\usepackage{ragged2e}
+\usepackage{setspace}
+\usepackage{fontspec} % font
+\setmainfont{Tahoma}
+
+\pagestyle{empty} % non-numbered pages
+\begin{document}
+ 
+ 
+%======= Header ============
+\centering{\Huge\textbf{Long N. H. Phan}}
+\begin{center} 
+\href{mailto:lnp26@case.edu}{lnp26@case.edu} • Cleveland, OH \\
+\href{https://linkedin.com/in/Long-Phan-3110/}{linkedin.com/in/Long-Phan-3110} • \href{http://github.com/justinphan3110}{github.com/justinphan3110}
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{2pt}}
+\end{center}
+
+%======= Education =========
+\centering{\huge \textbf{EDUCATION}} 
+\begin{flushleft}
+	\textbf{Case Western Reserve University } \hspace{1cm} Expected \textsc{May} 2022 \\
+	Bachelor of Science in Computer Science \\
+	Concentration: Artificial Intelligence / Software Engineering \\
+	\textbf{\textsc{GPA:}} 4.0 \\ 
+	\textbf{Relevant Course:} Introduction to programming in Java, Data Structures, Discrete Math \\
+	\centering{\noindent\makebox{\rule{8cm}{1.5pt}}}
+\end{flushleft}
+
+%======= Work Experience =======
+\centering{\huge \textbf{WORK EXPERIENCE}}
+\begin{flushleft}
+	\textbf{VNG Corporation; } Software Engineer Intern; expected May - August 2019 \\
+	\centering{\noindent\makebox{\rule{8cm}{1.5pt}}}
+\end{flushleft} 
+
+%======= Leadership and Acitivities =====
+\centering{\huge \textbf{LEADERSHIP AND ACTIVITIES}}
+\begin{flushleft}
+	
+	%=== HackCWRU organizer ===
+	\textbf{HackCWRU-2020 Organizer ; } Case Western Reserve University, Spring 2019 - 
+	present
+	\vspace{-\topsep}
+	\begin{itemize}
+		\setlength{\parskip}{0pt}
+		\setlength{\itemsep}{0pt plus 1pt}
+		\item Organize the Case Western Reserve University's Hackathon which will be held in Feb 2020 and the Local Hack Day in Fall 2019 \\
+		\item Main Developer and Maintainer for the HackCWRU-2020's official website: \href{http://hack.cwru.edu}{hack.cwru.edu}
+	\end{itemize}
+
+	%=== CRT ===
+	\textbf{Case Rocket Team; } Case Western Reserve University, August 2018 - present
+	\vspace{-\topsep}
+	\begin{itemize}
+		\setlength{\parskip}{0pt}
+		\setlength{\itemsep}{0pt plus 1pt}
+		\item Design and build a rocket qualified for the National Association of Rocketry Level 1 HPR Certification
+		\item Design a radio system that alow rocket to live streamming at the 10000 feet altitude for the FAR MARS 1030 - Held in Mojave, CA 
+	\end{itemize}
+	
+	%=== Green House ===
+	\textbf{Greenhouse and hydroponic room; }Project manager, Carney's Future Farmers of America; 2016 -2017
+	\vspace{-\topsep}
+	\begin{itemize}
+		\setlength{\parskip}{0pt}
+		\setlength{\itemsep}{0pt plus 1pt}
+		\item Proposed and Constructed a first green house and hydroponic for the Carney High School during cultural exchange year in Oklahoma with first batch consisting of 75+ tomato plants and 50 leafy greens 
+	\end{itemize}
+\vspace{-\topsep}
+\centering{\noindent\makebox{\rule{8cm}{1.5pt}}}
+\end{flushleft} 
+
+%====== Skills ======
+\centering{\huge \textbf{SKILLS}}
+\begin{flushleft}
+	\textbf{Programming Language:} Java, R, JavaScript \\ 
+	\doublespacing
+	\textbf{Software and Frameworks:} React.js, MVC, Spring Framework, JSP \\
+\vspace{-\topsep}
+\centering{\noindent\makebox{\rule{8cm}{1.5pt}}}
+\end{flushleft}
+
+%====== Projects ======
+\centering{\huge \textbf{PROJECTS}}
+\begin{flushleft}
+	
+ %== Battery Health Report ==
+ \textbf{Battery Health Report:} 
+ \vspace{-\topsep}
+ \begin{itemize}
+ 	\setlength{\parskip}{0pt}
+ 	\setlength{\itemsep}{0pt plus 1pt}
+ 	\item A software that analyzed how the laptop capacity degrade over time compared to the design capacity 
+ 	\item Extracted raw battery data from Windows and cleaned with R (integrate with Java)
+ 	\item Built with Java, R, and Spring: \href{https://github.com/justinphan3110/Battery-Health-Report}{github.com/justinphan3110/Battery-Health-Report}
+ \end{itemize}
+
+  %== Tomcat 9 Free Port ==
+  \textbf{Apache Tomcat 9 Free Port} 
+  \vspace{-\topsep}
+  \begin{itemize}
+  	\setlength{\parskip}{0pt}
+  	\setlength{\itemsep}{0pt plus 1pt}
+  	\item Free the Apache Tomcat 9 server port(eg 8080) used by other Listening Port or another running Tomcat instance
+  	\item Save users time and the inconvenience of reset/kill the Listening Port manually when working with JSP or Java Servlet
+  	\item Built with Java, and Spring: \href{https://github.com/justinphan3110/Apache-Tomcat-9-Free-Port}{github.com/justinphan3110/Apache-Tomcat-9-FreePort}
+  \end{itemize}
+
+  %== Get Saved WIFI password ==
+  \textbf{Get Saved WIFI Password}
+  \vspace{-\topsep}
+  \begin{itemize}
+  	\setlength{\parskip}{0pt}
+  	\setlength{\itemsep}{0pt plus 1pt}
+  	\item A software that allows users to get the saved wifi password on Windows that they already signed in before but may forget the password
+  	\item Built with Java and Windows Prompt commands: \href{https://github.com/justinphan3110/Get-the-Saved-WIFI-Password}{github.com/justinphan3110/Get-the-Saved-WIFI-Password}
+  \end{itemize}
+\end{flushleft}
+\end{document}
